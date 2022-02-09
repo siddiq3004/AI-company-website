@@ -1,0 +1,359 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    /* flex-direction:row;    */
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    /* padding-right: 100px; */
+    height: 40px; 
+    background-color: rgb(195, 231, 255);
+    position: fixed; 
+    z-index: 1;
+    width:100%;
+    font-size: large;
+}
+ 
+.ul{
+    display:flex;
+    flex-basis: 250px;
+    list-style-type: none;
+    gap: 90px; 
+    padding-left: 0px;
+}
+.ul a{
+    text-transform:capitalize;
+    text-rendering: geometricPrecision;
+    text-decoration: none;
+    color: black;
+}
+.sub a{
+    text-decoration: none;
+    right: 500px;
+}
+.subs{
+    border-color: black;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    padding:2px 4px 2px 4px ;
+    
+}
+
+.subs:hover,
+.subs:focus{
+    background-color: white;
+    color: sienna;
+
+}
+
+.car{
+    width:100%;
+    height: 100%;
+    align-content:stretch;
+    align-self:stretch;
+    position: relative;
+    top: 32px;
+    
+}
+ 
+.head{
+    position: absolute;
+    left: 250px;
+    top:90px;
+}
+.HEADING{
+   transition: all 0.3s ease-in-out 0s;
+   text-align: center;
+   text-shadow: 1px 2px white;
+   width: 600px;
+   height: 100px;
+   font-size:40px;
+}
+/* .main{
+    display:flex;
+    flex-direction: column;
+    position: relative;  
+    align-content: stretch;
+    top: 4px;
+} */
+
+.img1{
+    background-image: url("img1.jpg");
+    background-position: cover;
+    background-repeat:no-repeat ;
+    background-size: auto;
+    width:auto;
+    height: 600px;
+    padding-top: 0px;
+    display:flex;
+    align-items: center;
+}
+.p1{
+    width: 300px;
+    color: white;
+    margin-left: 20px;
+    display: block;
+}
+fieldset{
+    border-radius: 5px;
+
+}
+h5{
+    margin-top:0px;
+}
+.lc{
+    background-color: white;  
+    width: 100%;
+    
+}
+.f1,.f2,.f3{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center; 
+    justify-content:space-evenly; 
+}
+.f2,.f3{
+    padding-top: 30px;
+}
+.img2,.img6{
+    width: 15cm;
+    margin-left: 30px;
+    align-self: flex-end;
+}
+.a,.c{
+    padding: 30px 130px 20px 50px;
+}
+.img3{
+    width: 120cm;
+    height: 10cm;
+}
+.b{
+    padding: 20px 20px 20px 130px;
+}
+.back{
+    background-image: url('img7.jpeg');
+    background-position:cover;
+    background-attachment:fixed;
+    background-size: cover;
+    width:100%;
+    height: 600px;
+    display: flex;
+    align-items: center;  
+}
+.abc{
+    width: 150px;
+    height: 370px;
+    border: 2px black solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.171);
+    position: flex;
+    align-self: center; 
+    margin-left: 30px;
+    padding: 30px;
+    
+}
+.lc1{
+    
+    background-color: white;
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;   
+   
+}
+.abc h1{
+    text-decoration: underline;
+}
+.robo{
+    width:20%;
+    height:300px;
+    align-self:center;
+    align-content: center;
+    flex-basis: 500px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.lc2{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.lcc{
+    width: 140px;
+    height: auto;
+    padding: 3px;
+    justify-content: center;
+    text-align: center;
+}
+.lca{
+    position: relative;
+    left: 50px;
+    
+}
+.lca #hd{
+    
+    padding-left: 40px;
+}
+.footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+}
+.subf{
+    position:relative;
+    left: 200px;
+    justify-self: center;
+    align-self: center;
+}
+.lf{
+    position: relative;
+    right: 120px;
+}
+.lf2{
+    display: flex;
+    flex-direction: row;
+}
+.lf2ul{
+    position: relative;
+    right: 50px;
+}
+ul li a, ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+#email{
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    height: 28px;
+
+}
+.sbmt{
+    border-radius: 0px 25px 25px 0px ;
+    border: none;
+    outline: none;
+    position: relative;
+    right: 4px;
+    background-color: #fff701;
+    height: 30px;
+    transition: 0.5s ease-in-out;
+
+}
+.sbmt:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#email:focus-visible{
+    background-color: rgb(171, 180, 189);
+}
+.lf h1 a{
+    color: violet;
+    position: relative;
+    left: 40px;
+}
+.lf h1 a:hover{
+    color: palevioletred;
+}
+ul li a:hover{
+    color: orange;
+}
+/* login */
+.logbtn{
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    border: none;
+    transition: all .4s ease-in-out;
+}
+.logbtn:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 5px;
+    
+    
+}
+.logc{
+    border-radius: 10px;
+    background-color: white;
+   
+}
+#close{
+    position:relative;
+    bottom: 280px;
+    left: 220px;
+    width: fit-content;
+
+}
+.loga{
+    width: 100%;
+    height: 600px;
+    background: rgba(0,0,0,.5);
+    position:absolute;
+    top: -620px;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.loga.popup{
+    top: 0;
+}
+#login{
+    position:relative;
+    padding-right: 15px;
+    color: black;
+}
+#login:hover{
+    cursor: pointer;
+    color: sienna;
+}
+#close:hover{
+    cursor: pointer;
+    border: 0.2px black solid;
+    border-radius: 3px;
+}
+.inp{
+    border: none;
+    border-style:inset;
+   
+    border-radius: 4px; 
+}
+.lcp{
+    text-align: center;
+}
+header #menu{
+    display:none;
+}
